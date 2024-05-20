@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Age Calc</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Age Calculator</h1>
+    <p>Enter your date of birth and today's date.</p>
+    <div class="data">
+      <div class="dob">
+        <label for="dob-input">Date of Birth</label>
+        <br />
+        <input type="date" id="dob-input" placeholder="Select date"/>
+      </div>
+      <div class="today-date">
+        <label for="today-input">Today's date</label>
+        <br />
+        <input type="date" id="today-input" placeholder="Select date"/>
+      </div>
+    </div>
+    <button onclick="calculateAge()">Submit</button>
+    <p id="age-output"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
